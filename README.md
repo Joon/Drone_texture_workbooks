@@ -1,5 +1,7 @@
-# Drone_texture_workbooks
-Jupyter notebooks for processing the big data workload I implemented for my master's thesis in big data analytics
+# Drone texture workbooks
+Jupyter notebooks for processing the big data workload I implemented for my master's thesis in big data analytics. These workbooks take a list of images (link in the bottom), split them into test and train, creates ground truth data from classification that was pre-performed, and creates a training image dataset for training a semantic segmentation convolutional neural net. 
+
+They also compare the results of a CNN classification of the test image set with a set of classifications performed with the [Ilastik software](https://www.ilastik.org/) using classic computer vision techniques, and compares the efficacy of the two methods. 
 
 ## Background
 
